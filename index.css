@@ -1,0 +1,49 @@
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.img-center {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.element-one{
+  color: white;
+  font-size: 40px;
+}
+.element-two{
+  color: rgb(109, 108, 108);
+  font-size: 20px;
+}
+.info-one{
+  padding: 50px 30px 30px 60px;
+  background-color: bisque;
+  height: 30vh;
+  width: 50vw;
+}
+.info-two{
+  padding: 50px 30px 30px 60px;
+  background-color: rgb(235, 221, 202);
+  height: 30vh;
+  width: 50vw;
+}
+.skills-element-one-icon{
+  width: 50px;
+
+}
+.dot {
+  height: 10px;
+  width: 10px;  
+  border-radius: 50%;
+  display: inline-block;
+}
