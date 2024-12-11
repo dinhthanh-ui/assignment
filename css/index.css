@@ -28,14 +28,10 @@
 .info-one{
   padding: 50px 30px 30px 60px;
   background-color: bisque;
-  height: 30vh;
-  width: 50vw;
 }
 .info-two{
   padding: 50px 30px 30px 60px;
   background-color: rgb(235, 221, 202);
-  height: 30vh;
-  width: 50vw;
 }
 .skills-element-one-icon{
   width: 50px;
@@ -47,3 +43,47 @@
   border-radius: 50%;
   display: inline-block;
 }
+.color-icon{
+  color: rgb(64, 126, 241);
+}
+
+@media (min-width: 576px) { 
+  .certificates-item{
+    border-bottom: 1px solid ;
+    border-right: none;
+    padding-left: 20px;
+    border-color: rgb(240, 89, 89);
+    margin-bottom: 19px;
+    padding-bottom: 12px;
+  }
+  .skills{
+    gap: 30px;
+  }
+  .avatar{
+    display: none;
+  }
+  .menu{
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 768px) { 
+  .certificates-item{
+    border-right: 1px solid ;
+    border-bottom: none;
+    border-color: rgb(240, 89, 89);
+    padding-left: 20px;
+  }
+  .skills{
+    gap: 0;
+  }
+  .avatar{
+    display: block;
+  }
+ }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
