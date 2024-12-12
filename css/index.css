@@ -59,11 +59,13 @@
   .skills{
     gap: 30px;
   }
-  .avatar{
-    display: none;
+  .project{
+    margin-top: 50px;
   }
-  .menu{
-    padding-left: 20px;
+  .digital-element-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px !important;
   }
 }
 
@@ -77,8 +79,13 @@
   .skills{
     gap: 0;
   }
-  .avatar{
-    display: block;
+  .project{
+    margin-top: 0;
+  }
+  .digital-element-one{
+    display: flex;
+    flex-direction: row;
+    gap: 20px !important;
   }
  }
 
